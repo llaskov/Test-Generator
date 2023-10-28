@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test signature="NETB358" course="Java programming" semester="2016--2017 Spring" test_name="Exam session test" points="40" variants="3">
+
+    <question difficulty="1">
+        <text>
+            Generics in Java are a mechanism to parametrize:    
+        </text>
+        <answer correct="true">
+            data types 
+        </answer>
+        <answer correct="false">
+            methods input values
+        </answer>
+        <answer correct="false">
+            method return values
+        </answer>
+        <answer correct="false">
+            class identifiers
+        </answer>
+    </question>
+
+    <question difficulty="1">
+        <text>
+            Java applet is:      
+        </text>
+        <answer correct="true">
+            small application, written in Java, delivered in bytecode, launched from a web page    
+        </answer>
+        <answer correct="false">
+            a JavaScript in a web page
+        </answer>
+        <answer correct="false">
+            .java file that is executed in a web browser
+        </answer>
+        <answer correct="false">
+            an HTML 5 tag \texttt{&lt;APPLET&gt;}
+        </answer>
+    </question>
+
+    <question difficulty="1">
+        <text>
+            Which one is correct:    
+        </text>
+        <answer correct="true">
+            \texttt{Box&lt;Integer&gt; integerBox = new Box&lt;Integer&gt;();}
+        </answer>
+        <answer correct="false">
+            \texttt{Box&lt;int&gt; integerBox = new Box&lt;int&gt;();}
+        </answer>
+        <answer correct="false">
+            \texttt{Box integerBox&lt;Integer&gt; = new Box&lt;Integer&gt;();}
+        </answer>
+        <answer correct="false">
+            \texttt{Box&lt;Integer&gt; integerBox = new &lt;Integer&gt;Box();}
+        </answer>
+    </question>
+
+    <question difficulty="2">
+        <text>
+            Uniform resource locator:       
+        </text>
+        <answer correct="true">
+            an address to a resource on the Internet
+        </answer>
+        <answer correct="false">
+            a set of decimal values separated by dots that indicate an network address
+        </answer>
+        <answer correct="false">
+            a combination between an IP address and a port number
+        </answer>
+        <answer correct="false">
+            URL is a Java interface
+        </answer>
+    </question>
+
+    <question difficulty="2">
+        <text>
+            Generic method is:    
+        </text>
+        <answer correct="true">
+            a method with its own type parameters
+        </answer>
+        <answer correct="false">
+            any method in a generic class
+        </answer>
+        <answer correct="false">
+            a method that has a generic type as parameters
+        </answer>
+        <answer correct="false">
+            a method that has a generic type as return type
+        </answer>
+    </question>
+
+    <question difficulty="2">
+        <text>
+\begin{verbatim}
+Pair &lt;Integer, Integer&gt; pairInt = new Pair &lt;&gt;();
+Pair &lt;Number, Number&gt; pairNumb = pairInt ;
+\end{verbatim}
+        </text>
+        <answer correct="true">
+            not correct, \texttt{Pair &lt;Integer, Integer&gt;} is not a subtype of \texttt{Pair &lt;Number, Number&gt;}
+        </answer>
+        <answer correct="false">
+            correct, \texttt{Pair &lt;Integer, Integer&gt;} is a subtype of \texttt{Pair &lt;Number, Number&gt;}
+        </answer>
+        <answer correct="false">
+            correct, because of type inference
+        </answer>
+        <answer correct="false">
+            not correct, because the type arguments after the constructor are omitted
+        </answer>
+    </question>
+
+    <question difficulty="3">
+        <text>
+            Java networking programs are programmed at:     
+        </text>
+        <answer correct="true">
+            application layer
+        </answer>
+        <answer correct="false">
+            transport layer
+        </answer>
+        <answer correct="false">
+            network layer
+        </answer>
+        <answer correct="false">
+            data link layer
+        </answer>
+    </question>
+
+    <question difficulty="3">
+        <text>
+            Generics after compilations:    
+        </text>
+        <answer correct="true">
+            type parameters are replaced by \texttt{Object} or with their bounds
+        </answer>
+        <answer correct="false">
+            remain parametrized types
+        </answer>
+        <answer correct="false">
+            are replaced with the type arguments
+        </answer>
+        <answer correct="false">
+            are replaced with the concrete values
+        </answer>
+    </question>
+
+    <question difficulty="3">
+        <text>
+            \textit{Type erasure} is:   
+        </text>
+        <answer correct="true">
+            the mechanism in which Java implements generics 
+        </answer>
+        <answer correct="false">
+            the ability of Java to erase all data types
+        </answer>
+        <answer correct="false">
+            the ability of generics to ignore data types
+        </answer>
+        <answer correct="false">
+            the ability of a reference of a given data type to point to a object of another type
+        </answer>
+    </question>
+
+    <question difficulty="4">
+        <text>
+            Transmission control protocol:      
+        </text>
+        <answer correct="true">
+            connection-based protocol, provides reliable data flow
+        </answer>
+        <answer correct="false">
+            protocol that sends independent packets of data
+        </answer>
+        <answer correct="false">
+            bidirectional interactive text communication
+        </answer>
+        <answer correct="false">
+            protocol used for file transfer
+        </answer>
+    </question>
+
+    <question difficulty="4">
+        <text>
+            User datagram protocol:      
+        </text>
+        <answer correct="true">
+            protocol that sends independent packets of data
+        </answer>
+        <answer correct="false">
+            connection-based protocol, provides reliable data flow
+        </answer>
+        <answer correct="false">
+            bidirectional interactive text communication
+        </answer>
+        <answer correct="false">
+            protocol used for file transfer
+        </answer>
+    </question>
+
+    <question difficulty="4">
+        <text>
+            Which is not true:    
+        </text>
+        <answer correct="true">
+            you can create arrays of generic types
+        </answer>
+        <answer correct="false">
+            type parameters cannot be primitive data types
+        </answer>
+        <answer correct="false">
+            no static fields of type parameters
+        </answer>
+        <answer correct="false">
+            construction of parametrized types is impossible
+        </answer>
+    </question>
+
+    <question difficulty="5">
+        <text>
+            Throwing an exception is:  
+        </text>
+        <answer correct="true">
+            creating an exception object and handing it to the runtime system
+        </answer>
+        <answer correct="false">
+            error generated by the Java compiler
+        </answer>
+        <answer correct="false">
+            an error object created by the JVM
+        </answer>
+        <answer correct="false">
+            is the mechanism in which the program catches the exceptional situations
+        </answer>
+    </question>
+
+    <question difficulty="5">
+        <text>
+            Port number indicates:      
+        </text>
+        <answer correct="true">
+            application on the computer
+        </answer>
+        <answer correct="false">
+            address of the computer in Internet
+        </answer>
+        <answer correct="false">
+            the protocol used
+        </answer>
+        <answer correct="false">
+            resource location
+        </answer>
+    </question>
+
+    <question difficulty="5">
+        <text>
+            \textit{Catch or Specify Requirement} means that:   
+        </text>
+        <answer correct="true">
+            catch exception in \texttt{try} or re throw it with \texttt{throws}
+        </answer>
+        <answer correct="false">
+            Java code does not have to catch the exception
+        </answer>
+        <answer correct="false">
+            Java code catches the exception and then re throws it again
+        </answer>
+        <answer correct="false">
+            JVM will handle exception by itself
+        </answer>
+    </question>
+
+    <question difficulty="6">
+        <text>
+            Checked exception is an exception:    
+        </text>
+        <answer correct="true">
+            the application should recover from
+        </answer>
+        <answer correct="false">
+            the application cannot recover from
+        </answer>
+        <answer correct="false">
+            external for the program
+        </answer>
+        <answer correct="false">
+            handled by the compiler
+        </answer>
+    </question>
+
+    <question difficulty="6">
+        <text>
+            In connection-based communication:       
+        </text>
+        <answer correct="true">
+            server binds a socket to a port number
+        </answer>
+        <answer correct="false">
+            the packet itself contains the port number
+        </answer>
+        <answer correct="false">
+            the client binds a socket to a port number
+        </answer>
+        <answer correct="false">
+            port numbers are not used
+        </answer>
+   </question> 
+
+   <question difficulty="6">
+        <text>
+            In datagram-based communication    
+        </text>
+        <answer correct="true">
+            the packet itself contains the port number
+        </answer>
+        <answer correct="false">
+            server binds a socket to a port number
+        </answer>
+        <answer correct="false">
+            the client binds a socket to a port number
+        </answer>
+        <answer correct="false">
+            port numbers are not used
+        </answer>
+    </question> 
+
+    <question difficulty="7">
+        <text>
+            A socket is:       
+        </text>
+        <answer correct="true">
+            one endpoint of a two-way communication link between two programs on the network 
+        </answer>
+        <answer correct="false">
+            sending/receiving endpoint for packet delivery service
+        </answer>
+        <answer correct="false">
+            a connectionless packet delivery service
+        </answer>
+        <answer correct="false">
+            receiving endpoint for IP multicast packages
+        </answer>
+    </question>
+
+    <question difficulty="7">
+        <text>
+            In a network communication an endpoint is defined by:     
+        </text>
+        <answer correct="true">
+            an IP address and a port number
+        </answer>
+        <answer correct="false">
+            a protocol to access, and a location
+        </answer>
+        <answer correct="false">
+            a client and a server
+        </answer>
+        <answer correct="false">
+            network interface
+        </answer>
+    </question>
+
+    <question difficulty="7">
+        <text>
+\begin{verbatim}
+try {
+
+} catch (Exception e) {
+    
+} catch (ArithmeticException a) {
+    
+}
+\end{verbatim}            
+        </text>
+        <answer correct="true">
+            the types of \texttt{catch} blocks are not ordered correctly   
+        </answer>
+        <answer correct="false">
+            the types of \texttt{catch} blocks are ordered absolutely correctly
+        </answer>
+        <answer correct="false">
+            you cannot have more than one \texttt{catch} for a singly \texttt{try}
+        </answer>
+        <answer correct="false">
+            will generate compiler warning, but will work correctly
+        </answer>
+    </question>
+
+    <question difficulty="8">
+        <text>
+            After opening a socket, a client:       
+        </text>
+        <answer correct="true">
+            opens I/O streams
+        </answer>
+        <answer correct="false">
+            reads/writes data to the socket
+        </answer>
+        <answer correct="false">
+            sends independent packets of data to the server
+        </answer>
+        <answer correct="false">
+            closes the resources
+        </answer>
+    </question>
+
+    <question difficulty="8">
+        <text>
+            Client actions are:     
+        </text>
+        <answer correct="true">
+            open socket, open streams, read/write to streams, close streams, close socket
+        </answer>
+        <answer correct="false">
+            open streams, open socket, read/write to streams,  close socket, close streams
+        </answer>
+        <answer correct="false">
+            open socket, read/write to socket,  close socket
+        </answer>
+        <answer correct="false">
+            open streams, read/write to streams, close streams, open socket, close socket
+        </answer>
+    </question>
+
+    <question difficulty="8">
+        <text>
+\begin{verbatim}
+FileReader in = null;
+try {
+in = new FileReader ("input.txt");
+}
+\end{verbatim}           
+        </text>
+        <answer correct="true">
+            unbuffered input character stream    
+        </answer>
+        <answer correct="false">
+            unbuffered input byte stream
+        </answer>
+        <answer correct="false">
+            buffered input byte stream
+        </answer>
+        <answer correct="false">
+            buffered input character stream
+        </answer>
+    </question>
+
+    <question difficulty="9">
+        <text>
+            Swing is:    
+        </text>
+        <answer correct="true">
+            the project that comprise the lightweight GUI components in JFC 
+        </answer>
+        <answer correct="false">
+            the part of NetBeans that allow GUI development
+        </answer>
+        <answer correct="false">
+            third-part library for GUI development in Java
+        </answer>
+        <answer correct="false">
+            the Java 2D API
+        </answer>
+    </question>
+
+    <question difficulty="9">
+        <text>
+            JFC is:   
+        </text>
+        <answer correct="true">
+            broad API that contains a set of GUI components and services
+        </answer>
+        <answer correct="false">
+            a part of Swing toolkit
+        </answer>
+        <answer correct="false">
+            the Java 2D API
+        </answer>
+        <answer correct="false">
+            the Java internationalization toolkit
+        </answer>
+    </question>
+
+    <question difficulty="9">
+        <text>
+            Which is true:    
+        </text>
+        <answer correct="true">
+            Swing is a subset of JFC
+        </answer>
+        <answer correct="false">
+            JFC is a subset of Swing
+        </answer>
+        <answer correct="false">
+            Swing and JFC are separate API
+        </answer>
+        <answer correct="false">
+            both Swing and JFC are part of NetBeans
+        </answer>
+    </question>
+
+    <question difficulty="10">
+        <text>
+            Look is:    
+        </text>
+        <answer correct="true">
+            how widgets appear 
+        </answer>
+        <answer correct="false">
+            how widgets behave
+        </answer>
+        <answer correct="false">
+            both how widgets appear and behave
+        </answer>
+        <answer correct="false">
+            the accessibility API of the widget
+        </answer>
+    </question>
+
+    <question difficulty="10">
+        <text>
+            Feel is:  
+        </text>
+        <answer correct="true">
+            how widgets behave
+        </answer>
+        <answer correct="false">
+            how widgets appear
+        </answer>
+        <answer correct="false">
+            both how widgets appear and behave
+        </answer>
+        <answer correct="false">
+            the internationalization API of the widget
+        </answer>
+    </question>
+
+    <question difficulty="10">
+        <text>
+            The order of datagrams arrival:      
+        </text>
+        <answer correct="true">
+            is not guaranteed
+        </answer>
+        <answer correct="false">
+            depends on how the server sends them
+        </answer>
+        <answer correct="false">
+            depends on the client and how it receives them
+        </answer>
+        <answer correct="false">
+            is monitored by the transport layer
+        </answer>
+    </question>
+
+    <question difficulty="11">
+        <text>
+            Java implementation for connectionless packet delivery service:       
+        </text>
+        <answer correct="true">
+            \texttt{DatagramPacket}  
+        </answer>
+        <answer correct="false">
+            \texttt{DatagramSocket}
+        </answer>
+        <answer correct="false">
+            \texttt{MulticastSocket}
+        </answer>
+        <answer correct="false">
+            \texttt{Socket}
+        </answer>
+    </question>
+
+    <question difficulty="11">
+        <text>
+            Java implementation for sending/receiving datagram packages:     
+        </text>
+        <answer correct="true">
+            \texttt{DatagramSocket}
+        </answer>
+        <answer correct="false">
+            \texttt{DatagramPacket}
+        </answer>
+        <answer correct="false">
+            \texttt{MulticastSocket}
+        </answer>
+        <answer correct="false">
+            \texttt{Socket}
+        </answer>
+    </question>
+
+    <question difficulty="11">
+        <text>
+            Swing code runs:    
+        </text>
+        <answer correct="true">
+            on a separate thread, the event dispatch thread
+        </answer>
+        <answer correct="false">
+            obligatory in the main thread
+        </answer>
+        <answer correct="false">
+            in a separate process, designed to work with GUI components
+        </answer>
+        <answer correct="false">
+            on different threads at the same time
+        </answer>
+    </question>
+
+    <question difficulty="12">
+        <text>
+            The three top-level container classes in Swing are:    
+        </text>
+        <answer correct="true">
+            \texttt{JFrame}, \texttt{JDialog}, \texttt{JApplet}
+        </answer>
+        <answer correct="false">
+            \texttt{JButton}, \texttt{JCheckBox}, \texttt{JRadioButton}
+        </answer>
+        <answer correct="false">
+            \texttt{JMenuItem}, \texttt{JCheckBoxMenuItem}, \texttt{JToggleButton}
+        </answer>
+        <answer correct="false">
+            \texttt{JEditorPane}, \texttt{JTextPane}, \texttt{JTextField}
+        </answer>
+    </question>  
+    
+    <question difficulty="12">
+        <text>
+            Each GUI component is contained in \textit{containment hierarchy:}   
+        </text>
+        <answer correct="true">
+            only once
+        </answer>
+        <answer correct="false">
+            multiple times, depending on its occurrence
+        </answer>
+        <answer correct="false">
+            it can be outside the containment hierarchy
+        </answer>
+        <answer correct="false">
+            two times: once in the content pane, and once in the \texttt{JPannel}
+        </answer>
+    </question>
+
+    <question difficulty="12">
+        <text>
+            Containment hierarchy is:   
+        </text>
+        <answer correct="true">
+            a top-level container as root, and all components placed in it
+        </answer>
+        <answer correct="false">
+            \texttt{JPannel} and its contents
+        </answer>
+        <answer correct="false">
+            inheritance hierarchy of Swing classes
+        </answer>
+        <answer correct="false">
+            graphical nesting of the widgets one inside another
+        </answer>
+    </question>
+
+    <question difficulty="13">
+        <text>
+            Who is responsible for the database management:       
+        </text>
+        <answer correct="true">
+            DBMS
+        </answer>
+        <answer correct="false">
+            JVM
+        </answer>
+        <answer correct="false">
+            SQL
+        </answer>
+        <answer correct="false">
+            the application that works with it
+        </answer>
+   </question> 
+
+   <question difficulty="13">
+        <text>
+            SQL is      
+        </text>
+        <answer correct="true">
+            programming language to query and maintain relational databases
+        </answer>
+        <answer correct="false">
+            language to control any type of DBMS
+        </answer>
+        <answer correct="false">
+            markup language to communicate with DBMS
+        </answer>
+        <answer correct="false">
+            scripting language such as JavaScript
+        </answer>
+    </question> 
+
+    <question difficulty="13">
+        <text>
+            Relational databases organize data      
+        </text>
+        <answer correct="true">
+            in tables
+        </answer>
+        <answer correct="false">
+            in objects
+        </answer>
+        <answer correct="false">
+            in networks
+        </answer>
+        <answer correct="false">
+            in binary trees
+        </answer>
+    </question>
+
+    <question difficulty="14">
+        <text>
+            Database table structure:      
+        </text>
+        <answer correct="true">
+            fixed number of named columns and any number of rows
+        </answer>
+        <answer correct="false">
+            fixed number of rows and any number of named columns
+        </answer>
+        <answer correct="false">
+            fixed number of rows and named columns
+        </answer>
+        <answer correct="false">
+            the number of both rows and columns is not fixed
+        </answer>
+   </question> 
+
+   <question difficulty="14">
+        <text>
+            Table primary key:       
+        </text>
+        <answer correct="true">
+            one or more columns that uniquely identify each row
+        </answer>
+        <answer correct="false">
+            a column that numbers each row
+        </answer>
+        <answer correct="false">
+            a row that identifies the table
+        </answer>
+        <answer correct="false">
+            a reference to a unique column in a linked table
+        </answer>
+    </question> 
+
+    <question difficulty="14">
+        <text>
+            Table foreign key:      
+        </text>
+        <answer correct="true">
+            reference to a primary key in a linked table
+        </answer>
+        <answer correct="false">
+            one or more columns that uniquely identify each row  
+        </answer>
+        <answer correct="false">
+            a row that identifies the table
+        </answer>
+        <answer correct="false">
+            a column that numbers each row
+        </answer>
+    </question>
+
+    <question difficulty="15">
+        <text>
+            Layout manager is:    
+        </text>
+        <answer correct="true">
+            Component whose purpose is to position widgets without using distance units.
+        </answer>
+        <answer correct="false">
+            \texttt{JPannel}
+        </answer>
+        <answer correct="false">
+            content pane of the top-level containers
+        </answer>
+        <answer correct="false">
+            an option of NetBeans to position correctly graphical elements
+        </answer>
+    </question>  
+    
+    <question difficulty="15">
+        <text>
+            In Swing layout is provided by:   
+        </text>
+        <answer correct="true">
+            layout managers applied to any graphical container
+        </answer>
+        <answer correct="false">
+            the graphical containers themselves
+        </answer>
+        <answer correct="false">
+            content pane of the top-level containers
+        </answer>
+        <answer correct="false">
+            NetBeans graphical tools
+        </answer>
+    </question>
+
+    <question difficulty="15">
+        <text>
+            Event listeners:   
+        </text>
+        <answer correct="true">
+            are part of user defined classes
+        </answer>
+        <answer correct="false">
+            are defined in the widget classes themselves
+        </answer>
+        <answer correct="false">
+            are provided by the top-level containers 
+        </answer>
+        <answer correct="false">
+            are part of layout managers
+        </answer>
+    </question>
+
+    <question difficulty="16">
+        <text>
+            The following SQL statement will:
+\begin{verbatim}
+CREATE TABLE Employee (
+    Id CHAR(7) PRIMARY KEY,
+    Name VARCHAR(10),
+    Age INTEGER,
+    Gender CHAR(1)
+)
+\end{verbatim}
+        </text>
+        <answer correct="true">
+            create a table with four columns   
+        </answer>
+        <answer correct="false">
+            create a table with four rows
+        </answer>
+        <answer correct="false">
+            create a table with seven columns 
+        </answer>
+        <answer correct="false">
+            create a table with ten rows
+        </answer>
+   </question> 
+
+   <question difficulty="16">
+        <text>
+Which column must have unique values:
+\begin{verbatim}
+CREATE TABLE Employee (
+    Id CHAR(7) PRIMARY KEY,
+    Name VARCHAR(10),
+    Age INTEGER,
+    Gender CHAR(1)
+)
+\end{verbatim}               
+        </text>
+        <answer correct="true">
+            first   
+        </answer>
+        <answer correct="false">
+            second
+        </answer>
+        <answer correct="false">
+            third
+        </answer>
+        <answer correct="false">
+            fourth
+        </answer>
+    </question> 
+
+    <question difficulty="16">
+        <text>
+The following SQL statement will:
+\begin{verbatim}
+SELECT Name
+    FROM Employee
+    WHERE Age > 30 AND GENDER = 'M'
+\end{verbatim}             
+        </text>
+        <answer correct="true">
+            selects the name of all male, older than thirty, from table \texttt{Employee}  
+        </answer>
+        <answer correct="false">
+            selects the names of thirty male from table  \texttt{Employee}
+        </answer>
+        <answer correct="false">
+            selects the name of all female, older than thirty, from table \texttt{Employee}
+        </answer>
+        <answer correct="false">
+            selects the name of all employees, older than thirty, from table \texttt{Employee}
+        </answer>
+    </question>
+
+    <question difficulty="17">
+        <text>
+            Concurrent systems are:    
+        </text>
+        <answer correct="true">
+            systems that perform multiple tasks at the same time
+        </answer>
+        <answer correct="false">
+            only systems that have multiple processors 
+        </answer>
+        <answer correct="false">
+            application that executes two things at the same time
+        </answer>
+        <answer correct="false">
+            a process composed by multiple threads
+        </answer>
+    </question>  
+    
+    <question difficulty="17">
+        <text>
+            Definition of concurrent software is:  
+        </text>
+        <answer correct="true">
+            an application that performs multiple tasks at the same time
+        </answer>
+        <answer correct="false">
+            an application that fights for system resources with other applications
+        </answer>
+        <answer correct="false">
+            computer system that perform multiple tasks at the same time
+        </answer>
+        <answer correct="false">
+            refers to parallel programming algorithms
+        </answer>
+    </question>
+
+    <question difficulty="17">
+        <text>
+            Single Java application can be composed by:    
+        </text>
+        <answer correct="true">
+            single process and multiple threads
+        </answer>
+        <answer correct="false">
+            single thread and multiple processes
+        </answer>
+        <answer correct="false">
+            multiple processes managed by JVM
+        </answer>
+        <answer correct="false">
+            single process and single thread
+        </answer>
+    </question>
+
+    <question difficulty="18">
+        <text>
+            An execution unit that is a self-contained environment with own resources is a:  
+        </text>
+        <answer correct="true">
+            process 
+        </answer>
+        <answer correct="false">
+            thread
+        </answer>
+        <answer correct="false">
+            both process and thread
+        </answer>
+        <answer correct="false">
+            the whole OS
+        </answer>
+    </question>  
+    
+    <question difficulty="18">
+        <text>
+            Which one is true:  
+        </text>
+        <answer correct="true">
+            a process can contain multiple threads
+        </answer>
+        <answer correct="false">
+            a thread can contain multiple processes
+        </answer>
+        <answer correct="false">
+            thread is a synonymous to application
+        </answer>
+        <answer correct="false">
+            a process is a lightweight thread
+        </answer>
+    </question>
+
+    <question difficulty="18">
+        <text>
+            To implement concurrency in Java, use:  
+        </text>
+        <answer correct="true">
+            threads
+        </answer>
+        <answer correct="false">
+            processes
+        </answer>
+        <answer correct="false">
+            JVM -- it does it automatically
+        </answer>
+        <answer correct="false">
+            the event dispatch thread
+        </answer>
+    </question>
+
+    <question difficulty="19">
+        <text>
+            A join is a query that:       
+        </text>
+        <answer correct="true">
+            involves multiple tables
+        </answer>
+        <answer correct="false">
+            involves multiple columns
+        </answer>
+        <answer correct="false">
+            links tables together
+        </answer>
+        <answer correct="false">
+            sets the foreign key for a table
+        </answer>
+   </question> 
+
+   <question difficulty="19">
+        <text>
+            In a join query the involved tables are listed in      
+        </text>
+        <answer correct="true">
+            \texttt{FROM} clause
+        </answer>
+        <answer correct="false">
+            \texttt{SELECT} clause
+        </answer>
+        <answer correct="false">
+            \texttt{WHERE} clause
+        </answer>
+        <answer correct="false">
+            are not listed because the syntax \texttt{TABLE.Column} is used
+        </answer>
+    </question> 
+
+    <question difficulty="19">
+        <text>
+            In a join query the involved columns are denoted by:       
+        </text>
+        <answer correct="true">
+            \texttt{TABLE.Column}
+        </answer>
+        <answer correct="false">
+            \texttt{Column.TABLE}
+        </answer>
+        <answer correct="false">
+            only the column name
+        </answer>
+        <answer correct="false">
+            column name is included in the \texttt{WHERE} clause
+        </answer>
+    </question>
+
+    <question difficulty="20">
+        <text>
+            When \texttt{interrupt()} is invoked on a thread
+        </text>
+        <answer correct="true">
+            interrupted thread itself defines how to interrupt
+        </answer>
+        <answer correct="false">
+            the thread is terminated immediately
+        </answer>
+        <answer correct="false">
+            interrupted thread sleeps and waits for a given time period
+        </answer>
+        <answer correct="false">
+            the thread is joined with the main thread
+        </answer>
+    </question>  
+    
+    <question difficulty="20">
+        <text>
+            Thread interference means:
+        </text>
+        <answer correct="true">
+            two operations that run in different threads, acting on the same data, interleave
+        </answer>
+        <answer correct="false">
+            multiple threads are waiting for each other to complete
+        </answer>
+        <answer correct="false">
+            a thread cannot access a resource that is needed for it to complete
+        </answer>
+        <answer correct="false">
+            different threads have inconsistent actions with the same data
+        </answer>
+    </question>
+
+    <question difficulty="20">
+        <text>
+            To avoid thread interference:
+        </text>
+        <answer correct="true">
+            synchronize methods and statements
+        </answer>
+        <answer correct="false">
+            sleep one of the threads
+        </answer>
+        <answer correct="false">
+            interrupt one of the threads
+        </answer>
+        <answer correct="false">
+            synchronize constructor of the class implementing the thread
+        </answer>
+    </question>
+
+</test>

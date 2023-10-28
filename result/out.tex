@@ -1,0 +1,510 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+
+% packages
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{dsfont}
+\usepackage{verbatim}
+\usepackage[left=1.5cm, right=1.5cm, top=4cm, foot=1.5cm, headheight=0.5cm]{geometry}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\title{} \author{} \date{}
+
+% body of the document
+\begin{document}
+
+% Variant1
+	\thispagestyle{fancy}
+	\fancyhf{}
+	\fancyhead[L]{\vspace{-0.5cm}\large Name and faculty number: ....................................................................................................................
+	\\
+	\vspace{0.5cm} \normalsize \textbf{NETB358} \emph{Java programming, Exam session test} \textbf{2016--2017 Spring}}
+\fancyhead[R]{Variant 1}
+\fancyfoot[R]{Each correct answer brings 2 pt.; maximum points for the test is 40 pt.}
+\begin{enumerate}
+\item Which one is correct:
+\begin{enumerate}[(a)]
+	\item \texttt{Box<Integer> integerBox = new Box<Integer>();}
+	\item \texttt{Box<Integer> integerBox = new <Integer>Box();}
+	\item \texttt{Box integerBox<Integer> = new Box<Integer>();}
+	\item \texttt{Box<int> integerBox = new Box<int>();}
+\end{enumerate}
+\item Uniform resource locator:
+\begin{enumerate}[(a)]
+	\item URL is a Java interface
+	\item an address to a resource on the Internet
+	\item a set of decimal values separated by dots that indicate an network address
+	\item a combination between an IP address and a port number
+\end{enumerate}
+\item Java networking programs are programmed at:
+\begin{enumerate}[(a)]
+	\item application layer
+	\item transport layer
+	\item data link layer
+	\item network layer
+\end{enumerate}
+\item Which is not true:
+\begin{enumerate}[(a)]
+	\item construction of parametrized types is impossible
+	\item no static fields of type parameters
+	\item you can create arrays of generic types
+	\item type parameters cannot be primitive data types
+\end{enumerate}
+\item \textit{Catch or Specify Requirement} means that:
+\begin{enumerate}[(a)]
+	\item Java code catches the exception and then re throws it again
+	\item catch exception in \texttt{try} or re throw it with \texttt{throws}
+	\item JVM will handle exception by itself
+	\item Java code does not have to catch the exception
+\end{enumerate}
+\item In datagram-based communication
+\begin{enumerate}[(a)]
+	\item server binds a socket to a port number
+	\item port numbers are not used
+	\item the packet itself contains the port number
+	\item the client binds a socket to a port number
+\end{enumerate}
+\item A socket is:
+\begin{enumerate}[(a)]
+	\item a connectionless packet delivery service
+	\item receiving endpoint for IP multicast packages
+	\item one endpoint of a two-way communication link between two programs on the network
+	\item sending/receiving endpoint for packet delivery service
+\end{enumerate}
+\item \begin{verbatim}
+FileReader in = null;
+try {
+in = new FileReader ("input.txt");
+}
+\end{verbatim}
+\begin{enumerate}[(a)]
+	\item unbuffered input byte stream
+	\item unbuffered input character stream
+	\item buffered input character stream
+	\item buffered input byte stream
+\end{enumerate}
+\item Swing is:
+\begin{enumerate}[(a)]
+	\item the Java 2D API
+	\item the part of NetBeans that allow GUI development
+	\item third-part library for GUI development in Java
+	\item the project that comprise the lightweight GUI components in JFC
+\end{enumerate}
+\item Look is:
+\begin{enumerate}[(a)]
+	\item both how widgets appear and behave
+	\item how widgets appear
+	\item the accessibility API of the widget
+	\item how widgets behave
+\end{enumerate}
+\item Swing code runs:
+\begin{enumerate}[(a)]
+	\item on different threads at the same time
+	\item in a separate process, designed to work with GUI components
+	\item on a separate thread, the event dispatch thread
+	\item obligatory in the main thread
+\end{enumerate}
+\item Each GUI component is contained in \textit{containment hierarchy:}
+\begin{enumerate}[(a)]
+	\item it can be outside the containment hierarchy
+	\item multiple times, depending on its occurrence
+	\item two times: once in the content pane, and once in the \texttt{JPannel}
+	\item only once
+\end{enumerate}
+\item Relational databases organize data
+\begin{enumerate}[(a)]
+	\item in networks
+	\item in binary trees
+	\item in objects
+	\item in tables
+\end{enumerate}
+\item Database table structure:
+\begin{enumerate}[(a)]
+	\item the number of both rows and columns is not fixed
+	\item fixed number of rows and named columns
+	\item fixed number of rows and any number of named columns
+	\item fixed number of named columns and any number of rows
+\end{enumerate}
+\item In Swing layout is provided by:
+\begin{enumerate}[(a)]
+	\item content pane of the top-level containers
+	\item the graphical containers themselves
+	\item NetBeans graphical tools
+	\item layout managers applied to any graphical container
+\end{enumerate}
+\item The following SQL statement will:
+\begin{verbatim}
+CREATE TABLE Employee (
+    Id CHAR(7) PRIMARY KEY,
+    Name VARCHAR(10),
+    Age INTEGER,
+    Gender CHAR(1)
+)
+\end{verbatim}
+\begin{enumerate}[(a)]
+	\item create a table with four rows
+	\item create a table with ten rows
+	\item create a table with four columns
+	\item create a table with seven columns
+\end{enumerate}
+\item Single Java application can be composed by:
+\begin{enumerate}[(a)]
+	\item single thread and multiple processes
+	\item single process and multiple threads
+	\item single process and single thread
+	\item multiple processes managed by JVM
+\end{enumerate}
+\item To implement concurrency in Java, use:
+\begin{enumerate}[(a)]
+	\item processes
+	\item JVM -- it does it automatically
+	\item threads
+	\item the event dispatch thread
+\end{enumerate}
+\item In a join query the involved tables are listed in
+\begin{enumerate}[(a)]
+	\item \texttt{FROM} clause
+	\item \texttt{WHERE} clause
+	\item \texttt{SELECT} clause
+	\item are not listed because the syntax \texttt{TABLE.Column} is used
+\end{enumerate}
+\item Thread interference means:
+\begin{enumerate}[(a)]
+	\item two operations that run in different threads, acting on the same data, interleave
+	\item different threads have inconsistent actions with the same data
+	\item a thread cannot access a resource that is needed for it to complete
+	\item multiple threads are waiting for each other to complete
+\end{enumerate}
+\end{enumerate}
+\clearpage
+
+% Variant2
+	\thispagestyle{fancy}
+	\fancyhf{}
+	\fancyhead[L]{\vspace{-0.5cm}\large Name and faculty number: ....................................................................................................................
+	\\
+	\vspace{0.5cm} \normalsize \textbf{NETB358} \emph{Java programming, Exam session test} \textbf{2016--2017 Spring}}
+\fancyhead[R]{Variant 2}
+\fancyfoot[R]{Each correct answer brings 2 pt.; maximum points for the test is 40 pt.}
+\begin{enumerate}
+\item Generics in Java are a mechanism to parametrize:
+\begin{enumerate}[(a)]
+	\item data types
+	\item methods input values
+	\item method return values
+	\item class identifiers
+\end{enumerate}
+\item \begin{verbatim}
+Pair <Integer, Integer> pairInt = new Pair <>();
+Pair <Number, Number> pairNumb = pairInt ;
+\end{verbatim}
+\begin{enumerate}[(a)]
+	\item correct, because of type inference
+	\item correct, \texttt{Pair <Integer, Integer>} is a subtype of \texttt{Pair <Number, Number>}
+	\item not correct, \texttt{Pair <Integer, Integer>} is not a subtype of \texttt{Pair <Number, Number>}
+	\item not correct, because the type arguments after the constructor are omitted
+\end{enumerate}
+\item Generics after compilations:
+\begin{enumerate}[(a)]
+	\item are replaced with the concrete values
+	\item remain parametrized types
+	\item are replaced with the type arguments
+	\item type parameters are replaced by \texttt{Object} or with their bounds
+\end{enumerate}
+\item User datagram protocol:
+\begin{enumerate}[(a)]
+	\item connection-based protocol, provides reliable data flow
+	\item protocol used for file transfer
+	\item bidirectional interactive text communication
+	\item protocol that sends independent packets of data
+\end{enumerate}
+\item Port number indicates:
+\begin{enumerate}[(a)]
+	\item resource location
+	\item application on the computer
+	\item address of the computer in Internet
+	\item the protocol used
+\end{enumerate}
+\item In connection-based communication:
+\begin{enumerate}[(a)]
+	\item the packet itself contains the port number
+	\item the client binds a socket to a port number
+	\item server binds a socket to a port number
+	\item port numbers are not used
+\end{enumerate}
+\item In a network communication an endpoint is defined by:
+\begin{enumerate}[(a)]
+	\item an IP address and a port number
+	\item network interface
+	\item a protocol to access, and a location
+	\item a client and a server
+\end{enumerate}
+\item After opening a socket, a client:
+\begin{enumerate}[(a)]
+	\item reads/writes data to the socket
+	\item closes the resources
+	\item sends independent packets of data to the server
+	\item opens I/O streams
+\end{enumerate}
+\item Which is true:
+\begin{enumerate}[(a)]
+	\item both Swing and JFC are part of NetBeans
+	\item Swing and JFC are separate API
+	\item JFC is a subset of Swing
+	\item Swing is a subset of JFC
+\end{enumerate}
+\item Feel is:
+\begin{enumerate}[(a)]
+	\item the internationalization API of the widget
+	\item how widgets behave
+	\item both how widgets appear and behave
+	\item how widgets appear
+\end{enumerate}
+\item Java implementation for connectionless packet delivery service:
+\begin{enumerate}[(a)]
+	\item \texttt{MulticastSocket}
+	\item \texttt{DatagramPacket}
+	\item \texttt{DatagramSocket}
+	\item \texttt{Socket}
+\end{enumerate}
+\item Containment hierarchy is:
+\begin{enumerate}[(a)]
+	\item \texttt{JPannel} and its contents
+	\item graphical nesting of the widgets one inside another
+	\item a top-level container as root, and all components placed in it
+	\item inheritance hierarchy of Swing classes
+\end{enumerate}
+\item SQL is
+\begin{enumerate}[(a)]
+	\item scripting language such as JavaScript
+	\item language to control any type of DBMS
+	\item programming language to query and maintain relational databases
+	\item markup language to communicate with DBMS
+\end{enumerate}
+\item Table primary key:
+\begin{enumerate}[(a)]
+	\item a row that identifies the table
+	\item one or more columns that uniquely identify each row
+	\item a column that numbers each row
+	\item a reference to a unique column in a linked table
+\end{enumerate}
+\item Layout manager is:
+\begin{enumerate}[(a)]
+	\item an option of NetBeans to position correctly graphical elements
+	\item \texttt{JPannel}
+	\item content pane of the top-level containers
+	\item Component whose purpose is to position widgets without using distance units.
+\end{enumerate}
+\item The following SQL statement will:
+\begin{verbatim}
+SELECT Name
+    FROM Employee
+    WHERE Age > 30 AND GENDER = 'M'
+\end{verbatim}
+\begin{enumerate}[(a)]
+	\item selects the names of thirty male from table  \texttt{Employee}
+	\item selects the name of all employees, older than thirty, from table \texttt{Employee}
+	\item selects the name of all female, older than thirty, from table \texttt{Employee}
+	\item selects the name of all male, older than thirty, from table \texttt{Employee}
+\end{enumerate}
+\item Concurrent systems are:
+\begin{enumerate}[(a)]
+	\item only systems that have multiple processors
+	\item systems that perform multiple tasks at the same time
+	\item application that executes two things at the same time
+	\item a process composed by multiple threads
+\end{enumerate}
+\item Which one is true:
+\begin{enumerate}[(a)]
+	\item a process is a lightweight thread
+	\item a thread can contain multiple processes
+	\item thread is a synonymous to application
+	\item a process can contain multiple threads
+\end{enumerate}
+\item A join is a query that:
+\begin{enumerate}[(a)]
+	\item links tables together
+	\item involves multiple columns
+	\item involves multiple tables
+	\item sets the foreign key for a table
+\end{enumerate}
+\item To avoid thread interference:
+\begin{enumerate}[(a)]
+	\item synchronize methods and statements
+	\item sleep one of the threads
+	\item synchronize constructor of the class implementing the thread
+	\item interrupt one of the threads
+\end{enumerate}
+\end{enumerate}
+\clearpage
+
+% Variant3
+	\thispagestyle{fancy}
+	\fancyhf{}
+	\fancyhead[L]{\vspace{-0.5cm}\large Name and faculty number: ....................................................................................................................
+	\\
+	\vspace{0.5cm} \normalsize \textbf{NETB358} \emph{Java programming, Exam session test} \textbf{2016--2017 Spring}}
+\fancyhead[R]{Variant 3}
+\fancyfoot[R]{Each correct answer brings 2 pt.; maximum points for the test is 40 pt.}
+\begin{enumerate}
+\item Java applet is:
+\begin{enumerate}[(a)]
+	\item an HTML 5 tag \texttt{<APPLET>}
+	\item .java file that is executed in a web browser
+	\item a JavaScript in a web page
+	\item small application, written in Java, delivered in bytecode, launched from a web page
+\end{enumerate}
+\item Generic method is:
+\begin{enumerate}[(a)]
+	\item a method that has a generic type as return type
+	\item any method in a generic class
+	\item a method with its own type parameters
+	\item a method that has a generic type as parameters
+\end{enumerate}
+\item \textit{Type erasure} is:
+\begin{enumerate}[(a)]
+	\item the ability of generics to ignore data types
+	\item the mechanism in which Java implements generics
+	\item the ability of a reference of a given data type to point to a object of another type
+	\item the ability of Java to erase all data types
+\end{enumerate}
+\item Transmission control protocol:
+\begin{enumerate}[(a)]
+	\item protocol that sends independent packets of data
+	\item bidirectional interactive text communication
+	\item protocol used for file transfer
+	\item connection-based protocol, provides reliable data flow
+\end{enumerate}
+\item Throwing an exception is:
+\begin{enumerate}[(a)]
+	\item is the mechanism in which the program catches the exceptional situations
+	\item creating an exception object and handing it to the runtime system
+	\item an error object created by the JVM
+	\item error generated by the Java compiler
+\end{enumerate}
+\item Checked exception is an exception:
+\begin{enumerate}[(a)]
+	\item the application cannot recover from
+	\item the application should recover from
+	\item handled by the compiler
+	\item external for the program
+\end{enumerate}
+\item \begin{verbatim}
+try {
+
+} catch (Exception e) {
+    
+} catch (ArithmeticException a) {
+    
+}
+\end{verbatim}
+\begin{enumerate}[(a)]
+	\item you cannot have more than one \texttt{catch} for a singly \texttt{try}
+	\item the types of \texttt{catch} blocks are ordered absolutely correctly
+	\item the types of \texttt{catch} blocks are not ordered correctly
+	\item will generate compiler warning, but will work correctly
+\end{enumerate}
+\item Client actions are:
+\begin{enumerate}[(a)]
+	\item open socket, read/write to socket,  close socket
+	\item open streams, read/write to streams, close streams, open socket, close socket
+	\item open socket, open streams, read/write to streams, close streams, close socket
+	\item open streams, open socket, read/write to streams,  close socket, close streams
+\end{enumerate}
+\item JFC is:
+\begin{enumerate}[(a)]
+	\item the Java internationalization toolkit
+	\item the Java 2D API
+	\item a part of Swing toolkit
+	\item broad API that contains a set of GUI components and services
+\end{enumerate}
+\item The order of datagrams arrival:
+\begin{enumerate}[(a)]
+	\item depends on how the server sends them
+	\item depends on the client and how it receives them
+	\item is not guaranteed
+	\item is monitored by the transport layer
+\end{enumerate}
+\item Java implementation for sending/receiving datagram packages:
+\begin{enumerate}[(a)]
+	\item \texttt{Socket}
+	\item \texttt{MulticastSocket}
+	\item \texttt{DatagramPacket}
+	\item \texttt{DatagramSocket}
+\end{enumerate}
+\item The three top-level container classes in Swing are:
+\begin{enumerate}[(a)]
+	\item \texttt{JButton}, \texttt{JCheckBox}, \texttt{JRadioButton}
+	\item \texttt{JFrame}, \texttt{JDialog}, \texttt{JApplet}
+	\item \texttt{JEditorPane}, \texttt{JTextPane}, \texttt{JTextField}
+	\item \texttt{JMenuItem}, \texttt{JCheckBoxMenuItem}, \texttt{JToggleButton}
+\end{enumerate}
+\item Who is responsible for the database management:
+\begin{enumerate}[(a)]
+	\item SQL
+	\item JVM
+	\item DBMS
+	\item the application that works with it
+\end{enumerate}
+\item Table foreign key:
+\begin{enumerate}[(a)]
+	\item reference to a primary key in a linked table
+	\item one or more columns that uniquely identify each row
+	\item a row that identifies the table
+	\item a column that numbers each row
+\end{enumerate}
+\item Event listeners:
+\begin{enumerate}[(a)]
+	\item are provided by the top-level containers
+	\item are part of layout managers
+	\item are defined in the widget classes themselves
+	\item are part of user defined classes
+\end{enumerate}
+\item Which column must have unique values:
+\begin{verbatim}
+CREATE TABLE Employee (
+    Id CHAR(7) PRIMARY KEY,
+    Name VARCHAR(10),
+    Age INTEGER,
+    Gender CHAR(1)
+)
+\end{verbatim}
+\begin{enumerate}[(a)]
+	\item fourth
+	\item second
+	\item first
+	\item third
+\end{enumerate}
+\item Definition of concurrent software is:
+\begin{enumerate}[(a)]
+	\item refers to parallel programming algorithms
+	\item an application that fights for system resources with other applications
+	\item an application that performs multiple tasks at the same time
+	\item computer system that perform multiple tasks at the same time
+\end{enumerate}
+\item An execution unit that is a self-contained environment with own resources is a:
+\begin{enumerate}[(a)]
+	\item process
+	\item thread
+	\item the whole OS
+	\item both process and thread
+\end{enumerate}
+\item In a join query the involved columns are denoted by:
+\begin{enumerate}[(a)]
+	\item only the column name
+	\item column name is included in the \texttt{WHERE} clause
+	\item \texttt{TABLE.Column}
+	\item \texttt{Column.TABLE}
+\end{enumerate}
+\item When \texttt{interrupt()} is invoked on a thread
+\begin{enumerate}[(a)]
+	\item interrupted thread sleeps and waits for a given time period
+	\item the thread is terminated immediately
+	\item the thread is joined with the main thread
+	\item interrupted thread itself defines how to interrupt
+\end{enumerate}
+\end{enumerate}
+\clearpage
+\end{document}
